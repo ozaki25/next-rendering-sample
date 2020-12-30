@@ -9,7 +9,7 @@ type Props = {
 function SSG({ items }: Props) {
   return (
     <div>
-      <h1>Hello Server Side Rendering</h1>
+      <h1>Hello Static Generation</h1>
       {items.map(item => (
         <p key={item.id}>
           <Link href={item.url}>
